@@ -10,4 +10,8 @@ Each implementation provides the core stack operations (`push`, `pop`, `peek`, `
 
 Refer to the Javadoc documentation for detailed method descriptions and examples.
 
-
+| Implementation           | Advantages                                               | Disadvantages                                           |
+| :----------------------- | :-------------------------------------------------------- | :---------------------------------------------------- |
+| ArrayList Stack          | Dynamic resizing, easy to use                            | Potential overhead from resizing, no fixed capacity    |
+| Array with Fixed Capacity | Efficient (constant-time operations), predictable memory  | Limited capacity, potentially wasteful memory allocation |
+| Custom Linked List      | Dynamic, efficient for large stacks                        | Slightly more complex, memory overhead per node       |
